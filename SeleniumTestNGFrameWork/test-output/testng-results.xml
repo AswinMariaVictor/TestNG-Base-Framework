@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-06T17:00:04 IST" name="Default suite" finished-at="2024-05-06T17:00:22 IST" duration-ms="18281">
+    <groups>
+      <group name="smoke">
+        <method signature="TestNG_Demo.firstTestMethod()[pri:2, instance:com.test.Test.TestNG_Demo@3e62d773]" name="firstTestMethod" class="com.test.Test.TestNG_Demo"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNG_Demo.firstTestMethod()[pri:2, instance:com.test.Test.TestNG_Demo@3e62d773]" name="firstTestMethod" class="com.test.Test.TestNG_Demo"/>
+        <method signature="TestNG_Demo.secondMethod(java.lang.String)[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" name="secondMethod" class="com.test.Test.TestNG_Demo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-05-06T17:00:04 IST" name="Default test" finished-at="2024-05-06T17:00:22 IST" duration-ms="18281">
+      <class name="com.test.Test.TestNG_Demo">
+        <test-method is-config="true" signature="testFixtureInitialization()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:02 IST" name="testFixtureInitialization" finished-at="2024-05-06T17:00:04 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFixtureInitialization -->
+        <test-method is-config="true" signature="testInitialization()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:04 IST" name="testInitialization" finished-at="2024-05-06T17:00:09 IST" duration-ms="5680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialization -->
+        <test-method signature="firstTestMethod()[pri:2, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:09 IST" name="firstTestMethod" finished-at="2024-05-06T17:00:09 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestMethod -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:09 IST" name="testClosure" finished-at="2024-05-06T17:00:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method is-config="true" signature="testInitialization()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:09 IST" name="testInitialization" finished-at="2024-05-06T17:00:13 IST" duration-ms="3723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialization -->
+        <test-method signature="secondMethod(java.lang.String)[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:13 IST" name="secondMethod" finished-at="2024-05-06T17:00:13 IST" depends-on-methods="com.test.Test.TestNG_Demo.firstTestMethod" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Optional text is replaced]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:13 IST" name="testClosure" finished-at="2024-05-06T17:00:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method is-config="true" signature="testInitialization()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:13 IST" name="testInitialization" finished-at="2024-05-06T17:00:16 IST" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialization -->
+        <test-method signature="thirdTestMethod()[pri:1, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:16 IST" name="thirdTestMethod" depends-on-groups="sanity" finished-at="2024-05-06T17:00:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestMethod -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:16 IST" name="testClosure" finished-at="2024-05-06T17:00:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method is-config="true" signature="testInitialization()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:16 IST" name="testInitialization" finished-at="2024-05-06T17:00:19 IST" duration-ms="3329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialization -->
+        <test-method signature="thirdTestMethod()[pri:1, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:19 IST" name="thirdTestMethod" depends-on-groups="sanity" finished-at="2024-05-06T17:00:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestMethod -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:19 IST" name="testClosure" finished-at="2024-05-06T17:00:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method is-config="true" signature="testInitialization()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:19 IST" name="testInitialization" finished-at="2024-05-06T17:00:22 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialization -->
+        <test-method signature="fourthTestMethod()[pri:4, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:22 IST" name="fourthTestMethod" finished-at="2024-05-06T17:00:22 IST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[It is a hard assert expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: It is a hard assert expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.test.Test.TestNG_Demo.fourthTestMethod(TestNG_Demo.java:102)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestMethod -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:22 IST" name="testClosure" finished-at="2024-05-06T17:00:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method is-config="true" signature="testFixtureClosure()[pri:0, instance:com.test.Test.TestNG_Demo@3e62d773]" started-at="2024-05-06T17:00:22 IST" name="testFixtureClosure" finished-at="2024-05-06T17:00:22 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFixtureClosure -->
+      </class> <!-- com.test.Test.TestNG_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
